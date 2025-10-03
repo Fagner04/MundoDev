@@ -1,0 +1,102 @@
+.card {
+  margin-bottom: 15px;
+  padding: 1px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.card {
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-text {
+  color: rgb(255, 255, 255);
+}
+
+.row {
+  justify-content: center;
+  margin: 0px 25px;
+  margin-bottom: 40px;
+}
+
+.col-3 {
+  /* justify-content: space-evenly; */
+  /* display: flex; */
+  justify-content: space-between;
+  /* margin: 0 3%; */
+}
+
+.card {
+  width: 25.5rem;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    justify-content: center;
+    margin: 0 0px;
+  }
+}
+@media screen and (max-width: 1398px) {
+  .card {
+    width: 22rem;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .card {
+    width: 21rem;
+  }
+}
+
+@media screen and (max-width: 1205px) {
+  .card {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 1202px) {
+  .card {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .card {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .card {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 14rem;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .card {
+    width: 27rem;
+    margin: 8px 25px;
+  }
+}
+
+@media screen and (max-width: 437px) {
+  .card {
+    width: 18rem;
+    /* margin: 8px 25px; */
+  }
+}

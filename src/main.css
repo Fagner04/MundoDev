@@ -1,0 +1,71 @@
+@import url("header.css");
+@import url("article.css");
+@import url("form.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+.button-26 {
+  background-color: rgba(255, 99, 99, 0.093);
+  height: 5%;
+  margin: 0px 20px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.button-1,
+.bi-telephone {
+  padding: 6px;
+}
+
+.button-1 {
+  border: 0;
+  margin-right: 5px;
+  background-color: rgb(155, 111, 190);
+  border-radius: 10px;
+}
+
+.button-2 {
+  font-weight: 600;
+  width: 120%;
+  height: 35px;
+  border: 0;
+  background-color: rgb(171, 133, 203);
+  border-radius: 9px;
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px rgb(210, 174, 249);
+  transition: all 0.3s ease;
+}
+.button-2:hover {
+  box-shadow: 5px 5px rgba(210, 174, 249, 0);
+  transition: all 0.7s ease;
+}
+
+.bi-telephone {
+  color: rgb(255, 255, 255);
+}
+
+.btn-geral {
+  background-color: rgba(183, 167, 198, 0.474);
+  padding: 5px 8px;
+  display: inline;
+  align-items: center;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.btn-card {
+  background-color: rgba(139, 129, 148, 0.455);
+  padding: 8px 8px;
+  display: inline;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}

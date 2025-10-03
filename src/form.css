@@ -1,0 +1,43 @@
+form .mb-3 {
+  /* width: 25%; */
+}
+
+.fundo {
+  background-color: rgb(153, 127, 186);
+  padding: 25px;
+  width: 25%;
+  border-radius: 10px 40px;
+}
+
+/* footer */
+
+.social a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.social .bi:hover {
+  color: rgb(128, 86, 186);
+}
+
+form {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.022);
+  padding: 25px;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links p:hover {
+  color: rgb(65, 155, 112);
+}
+
+.links p {
+  font-weight: 600;
+}
